@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Classroom</title>
+		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+		<link href="../../css/ui.css" rel="stylesheet">
+	</head>
+	<body>
+		<p id="e" style="font-size: 1.4em;margin-top: 40vh;" class="center-self">
+			External links on the proxies will open in a new, non-bunker page. Teachers will be able to see the external page (only) that opened in a new tab.
+		</p>
+		<p style="font-size: 1.4em;color:red;" class="center-self">
+			use at your own risk
+		</p>
+		<a style="margin-left: 50vw;" id="nl" href="#">accept and continue</a>
+		<script>
+			const urlq = new URLSearchParams(window.location.search);
+			const id = urlq.get("id");
+			if(id!=undefined){
+				document.getElementById("nl").href="get.html?id="+id;
+			}
+		</script>
+	</body>
+</html>

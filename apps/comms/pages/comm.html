@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classroom</title>
+		<link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png">
+		<link href="../css/comm-ui.css" rel="stylesheet">
+		<link href="../../../css/ui.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header_bar" x-data="{}">
+			<a href="../../../index.html">Applist </a>
+			<h4>
+				Welcome back, <span x-text="localStorage.comm_user"></span>. Session ID: <span x-text="localStorage.comm_session"></span>, User ID: <span x-text="localStorage.comm_id"></span>
+			</h4>
+			<p>
+				Version ID: 0.7.1-beta using encryption method 01-original <a href="help.html" target="_blank">Messages not showing?</a>
+			</p>
+			<hr>
+		</div>
+		<div class="wrapper">
+			<div class="msg_wrapper" id="msg_wrapper">
+				
+			</div>
+			<div class="typers">
+				<p id="typers_txt">
+					&nbsp;
+					<!--Joe and Biden are typing...-->
+				</p>
+				<p id="online_txt">
+					<!--Online: Joe, Biden, i10-->
+				</p>
+			</div>
+			<div class="msg_input">
+				<input id="msg_input" placeholder="Send a message..."><button class="btn-inline">Send</button>
+			</div>
+		</div>
+		<script src="../js/alpine.js"></script>
+		<script src="../../../js/socket.js"></script>
+		<script src="../js/controller.js"></script>
+	</body>
+</html>

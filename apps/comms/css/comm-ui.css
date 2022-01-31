@@ -1,0 +1,44 @@
+.msg{
+	background: #050505;
+	padding: 5px;
+	padding-left: 1em;
+}
+.reduced_margin{
+	margin: 0px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+}
+.msg_bar>:first-child{
+	font-weight: bolder;
+}
+.msg_time{
+	color: #737373;
+	font-style: italic;
+}
+.msg_wrapper{
+	overflow: auto;
+	border: 1px solid #eee;
+	height: 83vh;
+}
+.msg_input{
+	border: 1px solid #eee;
+}
+.msg_input>input{
+	width: 90vw;
+}
+.typers{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #eee;
+}
+.header_bar>*{
+	display: inline-block;
+}
+.header_bar>p{
+	color: #737373;
+	font-style: italic;
+}
+.verf>img{
+	height: 1em;
+	margin-bottom: -2px;
+}
