@@ -23,6 +23,6 @@ just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co
 ## 
 This of course is a great way of using it but if you want to make sure your Teacher can't see the website start by doing this!
 
-- Start by downloading [Website](https://github.com/TTheHolyOne/holyunblocked/archive/refs/heads/main.zip)
+- Start by downloading the code by clicking CODE then download as zip
 
 - After doing this all you have to do is open index.html!
