@@ -35,8 +35,8 @@
 	height: max-content;
 	max-width: max-content;
 	min-width: 10vw;
-	background-color: #111111;
-	border: .1em solid #454545;
+	background-color: #800000;
+	border: .1em solid #4b4040;
 	border-radius: .2em;
 }
 .applist>iframe{
@@ -51,8 +51,8 @@
 	height: 1.2em;
 	border-bottom: 1px solid gray;
 	margin-bottom: 3px;
-	background: -webkit-linear-gradient(top, #3d3d3d 0%,#181818 30%,#181818 100%);
-    background: linear-gradient(to bottom, #3d3d3d 0%,#181818 30%,#181818 100%);
+	background: -webkit-linear-gradient(top, #002366 0%,#080808 30%, #010b13 100%);
+    background: linear-gradient(to bottom, #000000 0%,#400000 30%,#800000 100%);
 }
 .box_widget>div{
 	padding: 10px;
