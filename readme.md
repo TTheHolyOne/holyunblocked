@@ -19,10 +19,10 @@ This is a website which unblocks multiple games, plugins, etc.. This website can
 
 ## How to use
 If you want to use it without caring if GoGuardian can see it
-just go to my website: [HolyUnblocked]('https://holyunblocked.ttheholyone.repl.co/')
+just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co/)
 ## 
 This of course is a great way of using it but if you want to make sure your Teacher can't see the website start by doing this!
 
-- Start by downloading [Website]('https://github.com/TTheHolyOne/holyunblocked/archive/refs/heads/main.zip')
+- Start by downloading [Website](https://github.com/TTheHolyOne/holyunblocked/archive/refs/heads/main.zip)
 
 - After doing this all you have to do is open index.html!
