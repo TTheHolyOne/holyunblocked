@@ -1,1 +1,28 @@
-{"author":"111026380273322761566_i684i_google","name":"E2EE-PARTY","type":"nodejs","detailedtype":"default","description":"multi participant e2ee messaging stream designed to run in anti-goguardian pages","date":"2022-01-07T11:12:22.000Z","plugins":{"goorm.plugin.nodejs":[{"plugin.nodejs.main":"main","plugin.nodejs.source_path":"","plugin.nodejs.run_option":"","plugin.nodejs.run_on":"console","plugin.nodejs.log_path":"server.log","name":"nodejs"}]},"is_user_plugin":false,"storage":"container","project_domain":[{"id":"111026380273322761566_i684i_google","url":"bunker-test.run-us-west2.goorm.io","port":"8080"}],"show_preview_btn":true,"author_email":"nerflegoguy@outlook.com","author_name":"TTheHolyOne","ignore_patterns":[],"visibility":2}
+
+# HolyUnblocked
+
+This is a website which unblocks multiple games, plugins, etc.. This website can not be seen by GoGuardian if you download and use the site locally. It can be seen if you use my replit domain. 
+
+## Authors
+
+- [@TTheHolyOne](https://www.github.com/ttheholyone)
+
+
+## Features
+
+- GoGuardian can't see it if used locally
+- Plenty of plugins
+- Chatroom
+- Unblocked Websites
+- Hundreds of Bookmarklets
+
+
+## How to use
+If you want to use it without caring if GoGuardian can see it
+just go to my website: [HolyUnblocked]('https://holyunblocked.ttheholyone.repl.co/')
+## 
+This of course is a great way of using it but if you want to make sure your Teacher can't see the website start by doing this!
+
+- Start by downloading [Website]('https://github.com/TTheHolyOne/holyunblocked/archive/refs/heads/main.zip')
+
+- After doing this all you have to do is open index.html!
