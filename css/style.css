@@ -40,6 +40,17 @@ width:50%;
 
 font-family: 'Dongle', cursive;
 }
+#help{
+	color:white;
+    
+    position: fixed;
+
+  margin-top: -50px;
+  margin-left: -10px;
+width:30%;
+
+font-family: 'Dongle', cursive;
+}
 #linked{
 	color:white;
 	font-family: 'Dongle', cursive;
