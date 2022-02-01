@@ -276,8 +276,8 @@ width:50%;
 
 .btn5 {
 	    position: fixed;
-  top: 20px;
-  left: 720px;
+  top: 3%;
+  left: 54%;
 
   font-family: 'Oswald', sans-serif;
   font-size: 1.4rem;
@@ -492,7 +492,7 @@ color: red;
 }
 .btn6 {
 	    position: fixed;
-  top: 20px;
+  top: 3%;
   left: 70%;
 
   font-family: 'Oswald', sans-serif;
