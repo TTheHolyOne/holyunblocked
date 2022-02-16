@@ -449,10 +449,65 @@ color: red;
 .btn7:hover{
 	color:red;
 }
+.btn8:hover{
+	color:red;
+}
 .btn7 {
 	    position: fixed;
   top: 10%;
   left: 1%;
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  // letter-spacing: .2rem;
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0 4rem 0 3.8rem;
+  color: #FFF;
+  background: none;
+  border: 1px solid #FFF;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    height: 150%;
+    background: #FFF;
+    pointer-events: none;
+    transform: translate3d(0, 45px, 0);
+    transition: all 0.3s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  i {
+    font-style: normal;
+    line-height: 4.5rem;
+    display: inline-block;
+    height: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    &:hover {
+      transform: translate3d(0, -6px, 0);
+    }
+  }
+  &:hover {
+    color: #333;
+    &:after {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+.btn8 {
+	    position: fixed;
+  top: 10%;
+  left: 16%;
 
   font-family: 'Oswald', sans-serif;
   font-size: 1.4rem;
