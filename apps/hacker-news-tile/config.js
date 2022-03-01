@@ -12,5 +12,5 @@ window.apps["hacker-news-tile"]["tile"] = `<div class="box_widget">
 			<li class="news-item"><a id="news4">Loading...</a></li>
 		</ul>
 	</div>
-	<script src="apps/hacker-news-tile/hckr-nws-snppts.js"></script>
+	<script src="../../apps/hacker-news-tile/hckr-nws-snppts.js"></script>
 </div>`;

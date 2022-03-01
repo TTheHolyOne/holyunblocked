@@ -10,5 +10,5 @@ window.apps["conn_stats"]["tile"] = `<div class="box_widget">
 			<li>Encrypt/Decrypt Protocols: <span id="crypt_stat">...</span></li>
 		</ul>
 	</div>
-	<script src="apps/conn_stats/tile.js"></script>
+	<script src="../../apps/conn_stats/tile.js"></script>
 </div>`;

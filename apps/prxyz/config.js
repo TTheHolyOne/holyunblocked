@@ -15,5 +15,5 @@ window.apps["prxyz"]["tile"] = `<div class="box_widget">
 			</li>
 		</ul>
 	</div>
-	<script src="apps/prxyz/tile.js"></script>
+	<script src="../../apps/prxyz/tile.js"></script>
 </div>`;
