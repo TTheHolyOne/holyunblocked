@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Rubik+Beastly&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Hubballi&family=Rubik+Beastly&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
 
 body
 {
@@ -80,7 +81,8 @@ width:50%;
   top: 3%;
   left: 32%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
+
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -132,7 +134,7 @@ width:50%;
   top: 3%;
   left: 1%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -184,7 +186,7 @@ width:50%;
   top: 3%;
   left: 16%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -237,7 +239,7 @@ width:50%;
   top: 10%;
   left: 32%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -290,7 +292,7 @@ width:50%;
   top: 3%;
   left: 54%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -457,7 +459,7 @@ color: red;
   top: 10%;
   left: 1%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -509,7 +511,7 @@ color: red;
   top: 10%;
   left: 16%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
@@ -561,7 +563,7 @@ color: red;
   top: 3%;
   left: 73%;
 
-  font-family: 'Oswald', sans-serif;
+font-family: 'Hubballi', cursive;
   font-size: 1.4rem;
   text-transform: uppercase;
   // letter-spacing: .2rem;
