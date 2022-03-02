@@ -47,7 +47,10 @@ body {
   text-align: center;
   font-family: "Roboto Mono", monospace;
 }
-
+hr {
+	background-color: #b03232;
+	color: #b03232;
+}
 iframe {
   width: 60%;
   margin: 0 auto;
