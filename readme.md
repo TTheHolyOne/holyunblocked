@@ -23,7 +23,7 @@ This is a website that unblocks multiple games, plugins, etc.. This website can 
 - Clean files
 - Easy to navigate
 - Many domains
-- REAL ROBLOX AND MINECRAFT <- ENJOY
+- REAL ROBLOX AND MINECRAFT AND AMONG US<- ENJOY
 
 ## How to use
 If you want to use it without caring if GoGuardian can see it..<br/>
