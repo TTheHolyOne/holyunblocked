@@ -1,596 +1,474 @@
 <!DOCTYPE html>
-
 <html>
-<head>
+	<head>
+
+		<style>
+		    body {
+		        background-color:black;
+		        color:white;
+		                }
+		     .searchbar {  
+		                    
+		     float: left;  
+		     }  
+		     input[type=text] {  
+		     padding: 6px;  
+		     margin-top: 8px;  
+		     font-size: 17px;  
+		     border: none;  
+		     }  
+		</style>
+		<link href="//ssl.gstatic.com/classroom/favicon.png" rel="icon" type=
+		"image/png">
+		<link href="../../../assets/css/search.css" rel="stylesheet" type="text/css">
+		<title>
+			Google Classroom
+		</title>
+	</head>
+	<body>
+		<h1>
+			HUNDREDS of Embedded Games
+		</h1>
+
+		<hr>
+		<a href="../">Go back</a>
+		<p>
+			How to use: Basically all you need to do is find a game you want to play and
+			click it! Techinally it can be blocked because it is embedded but goguardian
+			cant see it and it uses the same games that you will find on your favorite
+			gaming sites! Does not use the same style as the other pages because it
+			makes it easier to hide when its black and white. Says google classroom and
+			the icon is it too to hide it as well!
+		</p>
+
+		<p>
+			Not really a game but a browser so you can search things up without it being
+			on history or goguardian!
+		</p>
+		<a href="embeds/browser.html">Browser</a><br>
+		<sub>Use the search-bar then click the letter of what the game's first letter
+		starts with, then at the top of the screen it should show the game or other
+		results, search must be spelt correctly or just put in the letters you
+		know</sub>
+		<form>
+			<input class="searchbarstyle" id="searchbar" onkeyup="search()" placeholder=
+			"Search.." title="Search for games" type="text">
+		</form>
+
+		<h2>
+			1-9-A-Z Games <br/> <a href="#1-9">1-9</a>|<a href="#a">A</a>|<a href=
+			"#b">B</a>|<a href="#c">C</a>|<a href="#d">D</a>|<a href="#e">E</a>|<a href=
+			"#f">F</a>|<a href="#g">G</a>|<a href="#h">H</a>|<a href="#i">I</a>|<a href=
+			"#j">J</a>|<a href="#k">K</a>|<a href="#l">L</a>|<a href="#m">M</a>|<a href=
+			"#n">N</a>|<a href="#o">O</a>|<a href="#p">P</a>|<a href="#q">Q</a>|<a href=
+			"#r">R</a>|<a href="#s">S</a>|<a href="#t">T</a>|<a href="#u">U</a>|<a href=
+			"#v">V</a>|<a href="#w">W</a>|<a href="#x">X</a>|<a href="#y">Y</a>|<a href=
+			"#z">Z</a>
+		</h2>
+
+		<hr>
+
+		<h3>All Games</h3>
+
+		<hr>
+
+		<div id="search-items">
+			<div id="1-9">
+				<div class="search-item">
+					<img alt="1v1.lol" class="search-img" src="images/1v1lol.jpg">
+					<a href="embeds/1v1lol.html">1v1.LOL</a>
+				</div>
+
+				<div class="search-item">
+					
+					<img alt="" class="search-img" src="images/apple-touch-icon.png"> <a href="embeds/1.html">1</a>
+				</div>
+
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/2048.png">
+					<a href="embeds/2048.html">2048</a>
+				</div>
+
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/logo-4.png">
+					<a href="embeds/9007199254740992.html">9007199254740992</a>
+				</div>
+			</div>
+
+
+			<div id="a">
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/red.png">
+					<a href="embeds/amongus.html">Among Us</a>
+				</div>
 
-    <style>
-               body {
-               background-color:black;
-               color:white;
-               }
-               a {
-                   color:white;
-               }
-               .searchbar {  
-    float: left;  
-    }  
-    input[type=text] {  
-    padding: 6px;  
-    margin-top: 8px;  
-    font-size: 17px;  
-    border: none;  
-    }  
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/red.png">
+					<a href="embeds/amongusbrowser.html">Real Among Us</a>
+				</div>
+			</div>
 
+			
 
-    </style>
-    <link href="//ssl.gstatic.com/classroom/favicon.png" rel="icon" type="image/png">
-    <link href="../../../assets/css/search.css" rel="stylesheet" type="text/css">
+			<div id="b">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/baldibasics.html">Baldi Basics</a>
+				</div>
 
-    <title>Google Classroom</title>
-</head>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/badicecream.html">Bad Ice Cream</a>
+				</div>
 
-<body>
-    <h1>HUNDREDS of Embedded Games</h1>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/basketrandom.html">Blocky Gun Paintball</a>
+				</div>
 
-    <hr>
-    <a href="../">Go back</a>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/blockygunpaintball.html">Blocky Gun Paintball</a>
+				</div>
 
-    <p>How to use:<br>
-    Basically all you need to do is find a game you want to play<br>
-    and click it! Techinally it can be blocked because it is embedded<br>
-    but goguardian cant see it and it uses the same games that you will find on your favorite gaming sites!<br>
-    Does not use the same style as the other pages because it makes it easier to hide when its black and white.<br>
-    Says google classroom and the icon is it too to hide it as well!</p>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/bloxorz.html">Bloxorz</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/bottleflip3d.html">Bottle Flip 3D</a>
+				</div>
 
-    <p>Not really a game but a browser so you can search things up without it being on history or goguardian!</p>
-    <a href="embeds/browser.html">Browser</a><br/>
-<sub>Use the search-bar then click the letter of what the game's first letter starts with, then at the top of the screen it should show the game or other results, search must be spelt correctly or just put in the letters you know</sub>
-    <form>
-        <input class="searchbarstyle" id="searchbar" onkeyup="search()" placeholder="Search.." title="Search for games" type="text">
-    </form>
-    <br>
-    <br>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/basketball-stars.png">
+					<a href="embeds/basketballstars.html">Basketball Stars</a>
+				</div>
+			</div>
 
 
-    <h2>1-9-A-Z Games | <a href="#1-9">1-9</a>|<a href="#a">A</a>|<a href="#b">B</a>|<a href="#c">C</a>|<a href="#d">D</a>|<a href="#e">E</a>|<a href="#f">F</a>|<a href="#g">G</a>|<a href=
-    "#h">H</a>|<a href="#i">I</a>|<a href="#j">J</a>|<a href="#k">K</a>|<a href="#l">L</a>|<a href="#m">M</a>|<a href="#n">N</a>|<a href="#o">O</a>|<a href="#p">P</a>|<a href="#q">Q</a>|<a href=
-    "#r">R</a>|<a href="#s">S</a>|<a href="#t">T</a>|<a href="#u">U</a>|<a href="#v">V</a>|<a href="#w">W</a>|<a href="#x">X</a>|<a href="#y">Y</a>|<a href="#z">Z</a></h2>
 
-    <hr>
+			<div id="c">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/crimemotor.html">Crime Moto Racer</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/cookieclicker.jpg">
+					<a href="embeds/cookieclicker.html">Cookie Clicker</a>
+				</div>
 
-    <h3>1-9 Games</h3>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/chromedinogame.jpg">
+					<a href="embeds/dinogame.html">Chrome Dino Game</a>
+				</div>
+			</div>
 
-    <hr>
 
 
-    <div id="search-items">
-        <div id="1-9">
-            <div class="search-item">
-                <a href="embeds/1v1lol.html">1v1.LOL</a><br>
-            </div>
+			<div id="d">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/driftboss.html">Drift Boss</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/dunkerfight2p.html">Dunker Fight 2P</a>
+				</div>
 
-            <div class="search-item">
-                <a href="embeds/1.html">1</a><br>
-            </div>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/doge.png">
+					<a href="embeds/dogeclicker.html">Doge Miner</a>
+				</div>
+			</div>
 
 
-            <div class="search-item">
-                <a href="embeds/2048.html">2048</a><br>
-            </div>
 
+			<div id="e">
+			</div>
 
-            <div class="search-item">
-                <a href="embeds/9007199254740992.html">9007199254740992</a><br>
-            </div>
-        </div>
 
-        <hr>
 
+			<div id="f">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/fallboys.html">Fall Boys</a>
+				</div>
 
-        <h3>A Games</h3>
+				<div class="search-item">
+					<img alt="FNAF Image" class="search-img" src="images/fnaf.jpg">
+					<a href="embeds/fnaf.html">FNAF Web</a>
+				</div>
 
-        <hr>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/fnf.jpg">
+					<a href="embeds/fnf.html">FNF</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/fortnitebuilding.html">Fortnite Building</a>
+				</div>
+			</div>
 
-        <div id="a">
-            <div class="search-item">
-                <a href="embeds/amongus.html">Among Us</a><br>
-            </div>
-			            <div class="search-item">
-                <a href="embeds/amongusbrowser.html">Real Among Us</a><br>
-            </div>
-        </div>
 
-        <hr>
 
+			<div id="g">
+			</div>
 
-        <h3>B Games</h3>
 
-        <hr>
 
+			<div id="h">
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/logo192.png">
+					<a href="embeds/hackertyper.html">Hacker Typer</a>
+				</div>
+			</div>
 
-        <div id="b">
-            <div class="search-item">
-                <a href="embeds/baldibasics.html">Baldi Basics</a><br>
-            </div>
 
 
-            <div class="search-item">
-                <a href="embeds/badicecream.html">Bad Ice Cream</a><br>
-            </div>
+			<div id="i">
+			</div>
 
 
-            <div class="search-item">
-                <a href="embeds/basketrandom.html">Blocky Gun Paintball</a><br>
-            </div>
 
+			<div id="j">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/justbuild.html">Just Build</a>
+				</div>
+			</div>
 
-            <div class="search-item">
-                <a href="embeds/blockygunpaintball.html">Blocky Gun Paintball</a><br>
-            </div>
 
 
-            <div class="search-item">
-                <a href="embeds/bloxorz.html">Bloxorz</a><br>
-            </div>
+			<div id="k">
+			</div>
 
 
-            <div class="search-item">
-                <a href="embeds/bottleflip3d.html">Bottle Flip 3D</a><br>
-            </div>
 
+			<div id="l">
+			</div>
 
-            <div class="search-item">
-                <a href="embeds/basketballstars.html">Basketball Stars</a><br>
-            </div>
-        </div>
 
-        <hr>
 
+			<div id="m">
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/pack.png">
+					<a href="embeds/minecraft.html">Real Minecraft 1.5.2</a>
+				</div>
 
-        <h3>C Games</h3>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/pack.png">
+					<a href="embeds/minecraftbrowser.html">Real Minecraft Trial Newest
+					Version</a>
+				</div>
+			</div>
 
-        <hr>
 
 
-        <div id="c">
-            <div class="search-item">
-                <a href="embeds/crimemotor.html">Crime Moto Racer</a><br>
-            </div>
+			<div id="n">
+			</div>
 
 
-            <div class="search-item">
-                <a href="embeds/cookieclicker.html">Cookie Clicker</a><br>
-            </div>
 
+			<div id="o">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/organtrail.html">Organ Trail</a>
+				</div>
+			</div>
 
-            <div class="search-item">
-                <a href="embeds/dinogame.html">Chrome Dino Game</a><br>
-            </div>
-        </div>
 
-        <hr>
 
+			<div id="p">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/pacman.html">Pacman</a>
+				</div>
 
-        <h3>D Games</h3>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/paperio2.html">Paper IO 2</a>
+				</div>
 
-        <hr>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/pizzaclicker.html">Pizza Clicker</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/popcornmaker.html">Popcorn Maker</a>
+				</div>
+			</div>
 
-        <div id="d">
-            <div class="search-item">
-                <a href="embeds/driftboss.html">Drift Boss</a><br>
-            </div>
 
 
-            <div class="search-item">
-                <a href="embeds/dunkerfight2p.html">Dunker Fight 2P</a><br>
-            </div>
+			<div id="q">
+			</div>
 
 
-            <div class="search-item">
-                <a href="embeds/dogeclicker.html">Doge Miner</a><br>
-            </div>
-        </div>
 
-        <hr>
+			<div id="r">
+				<div class="search-item">
+					<img alt="Retro Bowl Image" class="search-img" src="images/retrobowl.jpg">
+					<a href="embeds/retrobowl.html">Retro Bowl</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/thumb.png">
+					<a href="embeds/rooftopsnipers.html">Rooftop Snipers</a>
+				</div>
 
-        <h3>E Games</h3>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/roblox.html">Real Roblox</a>
+				</div>
 
-        <hr>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/roblox2.html">Real Roblox #2</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/run3.jpg">
+					<a href="embeds/run3.html">Run 3</a>
+				</div>
+			</div>
 
-        <div id="e">
-        </div>
 
-        <hr>
 
+			<div id="s">
+				<div class="search-item">
+					<img alt="Slope Image" class="search-img" src="images/slope.jpg">
+					<a href="embeds/slope.html">Slope</a>
+				</div>
 
-        <h3>F Games</h3>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/shellshockers.html">Shell Shockers</a>
+				</div>
 
-        <hr>
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/subwayrunner.html">Super Hot</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/subwayrunner.html">Subway Runner</a>
+				</div>
 
-        <div id="f">
-            <div class="search-item">
-                <a href="embeds/fallboys.html">Fall Boys</a><br>
-            </div>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/snake.png">
+					<a href="embeds/snakegame.html">Google Snake</a>
+				</div>
 
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/stack.png">
+					<a href="embeds/stack.html">Stack</a>
+				</div>
+			</div>
 
-            <div class="search-item">
-                <a href="embeds/fnaf.html">FNAF Web</a><br>
-            </div>
 
 
-            <div class="search-item">
-                <a href="embeds/fnf.html">FNF</a><br>
-            </div>
 
+			<div id="t">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/tabs.html">TABS</a>
+				</div>
 
-            <div class="search-item">
-                <a href="embeds/fortnitebuilding.html">Fortnite Building</a><br>
-            </div>
-        </div>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/tunnelrush.jpg">
+					<a href="embeds/tunnelrush.html">Tunnel Rush</a>
+				</div>
 
-        <hr>
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/logo.png">
+					<a href="embeds/ting.html">There Is No Game</a>
+				</div>
+			</div>
 
 
-        <h3>G Games</h3>
 
-        <hr>
+			<div id="u">
+			</div>
 
 
-        <div id="g">
-        </div>
 
-        <hr>
+			<div id="v">
+			</div>
 
 
-        <h3>H Games</h3>
 
-        <hr>
+			<div id="w">
+				<div class="search-item">
+					<img alt="" class="search-img" src="">
+					<a href="embeds/wordle.html">Wordle Unlimited</a>
+				</div>
+			</div>
 
 
-        <div id="h">
-            <div class="search-item">
-                <a href="embeds/hackertyper.html">Hacker Typer</a><br>
-            </div>
-        </div>
 
-        <hr>
 
 
-        <h3>I Games</h3>
 
-        <hr>
 
+			<div id="x">
+			</div>
 
-        <div id="i">
-        </div>
+			<div id="y">
+			</div>
 
-        <hr>
 
+			<div id="z">
+				<div class="search-item">
+					<img alt="" class="search-img" src="images/zomb.png">
+					<a href="embeds/zombsroyale.html">Zombs Royale</a>
+				</div>
+			</div>
 
-        <h3>J Games</h3>
+			<div class="search-item">
+				<img alt="" class="search-img" src="images/static.png">
+				<a href="embeds/slope.html">Coming Soon!</a>
+			</div>
 
-        <hr>
+			<div class="search-item">
+				<img alt="" class="search-img" src="images/static.png">
+				<a href="embeds/slope.html">Coming Soon!</a>
+			</div>
 
+			<div class="search-item">
+				<img alt="" class="search-img" src="images/static.png">
+				<a href="embeds/slope.html">Coming Soon!</a>
+			</div>
 
-        <div id="j">
-            <div class="search-item">
-                <a href="embeds/justbuild.html">Just Build</a><br>
-            </div>
-        </div>
+			<div class="search-item">
+				<img alt="" class="search-img" src="images/static.png">
+				<a href="embeds/slope.html">Coming Soon!</a>
+			</div>
+		</div>
+		<script>
+		         function search() {
+		             let input = document.getElementById("searchbar");
+		             let filter = input.value.toLowerCase();
+		             let container = document.getElementById("search-items");
+		             let items = container.getElementsByClassName("search-item");
 
-        <hr>
-
-
-        <h3>K Games</h3>
-
-        <hr>
-
-
-        <div id="k">
-        </div>
-
-        <hr>
-
-
-        <h3>L Games</h3>
-
-        <hr>
-
-
-        <div id="l">
-        </div>
-
-        <hr>
-
-
-        <h3>M Games</h3>
-
-        <hr>
-
-
-        <div id="m">
-            <div class="search-item">
-                <a href="embeds/minecraft.html">Real Minecraft 1.5.2</a>
-            </div>
-			            <div class="search-item">
-                <a href="embeds/minecraftbrowser.html">Real Minecraft Trial Newest Version </a>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>N Games</h3>
-
-        <hr>
-
-
-        <div id="n">
-        </div>
-
-        <hr>
-
-
-        <h3>O Games</h3>
-
-        <hr>
-
-
-        <div id="o">
-            <div class="search-item">
-                <a href="embeds/organtrail.html">Organ Trail</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>P Games</h3>
-
-        <hr>
-
-
-        <div id="p">
-            <div class="search-item">
-                <a href="embeds/pacman.html">Pacman</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/paperio2.html">Paper IO 2</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/pizzaclicker.html">Pizza Clicker</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/popcornmaker.html">Popcorn Maker</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>Q Games</h3>
-
-        <hr>
-
-
-        <div id="q">
-        </div>
-
-        <hr>
-
-
-        <h3>R Games</h3>
-
-        <hr>
-
-
-        <div id="r">
-            <div class="search-item">
-                <a href="embeds/retrobowl.html">Retro Bowl</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/rooftopsnipers.html">Rooftop Snipers</a><br>
-            </div>
-
-            <div class="search-item">
-                <a href="embeds/roblox.html">Real Roblox</a><br>
-            </div>
-			            <div class="search-item">
-                <a href="embeds/roblox2.html">Real Roblox #2</a><br>
-            </div>
-            <div class="search-item">
-                <a href="embeds/run3.html">Run 3</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>S Games</h3>
-
-        <hr>
-
-
-        <div id="s">
-            <div class="search-item">
-                <a href="embeds/slope.html">Slope</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/shellshockers.html">Shell Shockers</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/subwayrunner.html">Super Hot</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/subwayrunner.html">Subway Runner</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/snakegame.html">Google Snake</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/stack.html">Stack</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>T Games</h3>
-
-        <hr>
-
-
-        <div id="t">
-            <div class="search-item">
-                <a href="embeds/tabs.html">TABS</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/tunnelrush.html">Tunnel Rush</a><br>
-            </div>
-
-
-            <div class="search-item">
-                <a href="embeds/ting.html">There Is No Game</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>U Games</h3>
-
-        <hr>
-
-
-        <div id="u">
-        </div>
-
-        <hr>
-
-
-        <h3>V Games</h3>
-
-        <hr>
-
-
-        <div id="v">
-        </div>
-
-        <hr>
-
-
-        <h3>W Games</h3>
-
-        <hr>
-
-
-        <div id="w">
-            <div class="search-item">
-                <a href="embeds/wordle.html">Wordle Unlimited</a><br>
-            </div>
-        </div>
-
-        <hr>
-
-
-        <h3>Y Games</h3>
-
-        <hr>
-
-
-        <div id="y">
-        </div>
-
-        <hr>
-
-
-        <h3>X Games</h3>
-
-        <hr>
-
-
-        <div id="x">
-        </div>
-
-        <hr>
-
-
-        <h3>Z Games</h3>
-
-        <hr>
-
-
-        <div id="z">
-            <div class="search-item">
-                <a href="embeds/zombsroyale.html">Zombs Royale</a><br>
-            </div>
-        </div>
-
-
-        <div class="search-item">
-            <a href="embeds/slope.html">Coming Soon!</a><br>
-        </div>
-
-
-        <div class="search-item">
-            <a href="embeds/slope.html">Coming Soon!</a><br>
-        </div>
-
-
-        <div class="search-item">
-            <a href="embeds/slope.html">Coming Soon!</a><br>
-        </div>
-
-
-        <div class="search-item">
-            <a href="embeds/slope.html">Coming Soon!</a><br>
-        </div>
-    </div>
-    <script>
-        function search() {
-            let input = document.getElementById("searchbar");
-            let filter = input.value.toLowerCase();
-            let container = document.getElementById("search-items");
-            let items = container.getElementsByClassName("search-item");
-
-            for (var i = 0; i < items.length; i++) {
-                let div = items[i];
-                let element = div.getElementsByTagName("a")[0];
-                if (!element.innerHTML.toLowerCase().includes(filter)) {
-                    items[i].style.display = "none";
-                } else {
-                    items[i].style.display = "";
-                }
-            }
-        }
-    </script>
-</body>
+		             for (var i = 0; i < items.length; i++) {
+		                 let div = items[i];
+		                 let element = div.getElementsByTagName("a")[0];
+		                 if (!element.innerHTML.toLowerCase().includes(filter)) {
+		                     items[i].style.display = "none";
+		                 } else {
+		                     items[i].style.display = "";
+		                 }
+		             }
+		         }
+		</script>
+	</body>
 </html>
