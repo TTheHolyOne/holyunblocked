@@ -22,11 +22,15 @@ This is a website that unblocks multiple games, plugins, etc.. This website can 
 - Browser
 - Clean files
 - Easy to navigate
+- Many domains
 
 
 ## How to use
-If you want to use it without caring if GoGuardian can see it..
-1. Just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co/)
+If you want to use it without caring if GoGuardian can see it..<br/>
+1. Just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co/)<br/>
+2. Or this domain: [HolyUnblocked#2](https://holymods.dev/holyunblocked/index.html)<br/>
+3. Or this one: [HolyUnblocked#3](https://holyunblocker.ttheholyone.repl.co)<br/>
+4. Read below to learn how to make this run locally so it cant be blocked if all of these are blocked!
 ## 
 This of course is a great way of using it but if you want to make sure your Teacher can't see the website start by doing this!
 
