@@ -12,7 +12,7 @@ const io = require('socket.io')(server, {
 		methods: ['GET', 'POST'],
 	},
 });
-const filenames = ['.css', '.gif', '.png', '.jpg', '.txt', '.js', '.md', '.html', '.env', '.svg'];
+const filenames = ['', '/', 'downloads', 'plugins', 'posts', 'reviews', 'sites', 'games', 'bookmarklets', '.css', '.gif', '.png', '.jpg', '.txt', '.js', '.md', '.html', '.env', '.svg'];
 const ppl = {};
 //const users = [
 //"u": "i10", "p": "408f31d86c6bf4a8aff4ea682ad002278f8cb39dc5f37b53d343e63a61f3cc4f", "b":false /* 'bruh' sha256'd */}

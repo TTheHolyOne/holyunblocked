@@ -42,20 +42,20 @@ sub {
 body {
   background-color: #161515;
   width: 100%;
-  color: #b03232;
+  color: #5D3FD3;
   padding: 0;
   margin: 0;
   text-align: center;
   font-family: "Roboto Mono", monospace;
 }
 hr {
-	background-color: #b03232;
-	color: #b03232;
+	background-color: #5D3FD3;
+	color: #5D3FD3;
 }
 iframe {  
   margin: 0 auto;
   display: block;
-		background-color:#892929;
+		background-color:#702963;
 	background-image: url("../../pages/games/games/images/loading.gif");
 }
 
@@ -65,22 +65,22 @@ h1 {
 
 /* hyperlink styling */
 a:link {
-  color: #b03232;
+  color: #5D3FD3;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 a:visited {
-  color: #892929;
+  color: #5D3FD3;
 }
 
 a:hover {
-  color: #892929;
+  color: #5D3FD3;
   text-decoration: none;
 }
 
 a:active {
-  color: #b03232;
+  color: #5D3FD3;
 }
 
 /* navbar*/
@@ -92,7 +92,7 @@ nav {
 }
 
 button {
-	color:#b03232;
+	color:#5D3FD3;
 	background-color:#161515;
 }
 
@@ -153,18 +153,47 @@ width: 8em
 	}
 }
 
+.search-item {
+  width: 14.3vw;
+  height: 14.9vw;
+	color:white;
+  float: left;
+  margin: 30px;
+  font-size: 1vw;
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+border-radius: 15px 50px 30px 5px;
+}
+.search-item:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
 /* IDS */
 
 /* search */
 #searchbar {
   width: 20%;
   background-color: #0000;
-  border: #b03232 inset 2px;
+  border: #5D3FD3 inset 2px;
   color: white;
 }
 #search-items {
-  margin: 0 auto;
   width: 80%;
+	height:200em;
+margin-left: auto;
+margin-right: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 /* CLASSES */
@@ -187,10 +216,10 @@ width: 8em
   transition: 0.3s;
 }
 .nav-item:hover {
-  color: #892929;
+  color: #702963;
 }
 .nav-item:visited {
-  color: #892929;
+  color: #702963;
 }
 .logo {
   padding-top: 20px;
@@ -199,19 +228,13 @@ width: 8em
 }
 
 /* search */
-.search-item {
-  width: 14.3vw;
-  height: 14.3vw;
-  border: #b03232 inset 2px;
-  float: left;
-  margin: 30px;
-  font-size: 1vw;
-}
+
 .search-img {
-  height: 11vw;
-  width: 11vw;
+  height: 13.5vw;
+  width: 14vw;
   clip-path: border-box;
   margin: 0 auto;
+border-radius: 15px 50px 30px 5px;
 }
 img + a {
   display: block;
