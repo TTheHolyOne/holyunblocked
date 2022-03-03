@@ -1,3 +1,4 @@
+
 const express = require('express');
 const app = express();
 app.use(express.json());
@@ -12,6 +13,7 @@ const io = require('socket.io')(server, {
 		methods: ['GET', 'POST'],
 	},
 });
+require('http').createServer((_, res) => res.end("w")).listen(8080)
 const filenames = ['.css', '.gif', '.png', '.jpg', '.txt', '.js', '.md', '.html', '.env', '.svg'];
 const ppl = {};
 //const users = [

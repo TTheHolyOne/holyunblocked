@@ -1,2 +1,2 @@
 language = "html"
-run = "holy"
+run = "node index.js"

@@ -1,0 +1,9 @@
+{
+  "name": "test-project",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1",
+    "start": "^5.1.0",
+    "uuid": "^8.3.2"
+  }
+}

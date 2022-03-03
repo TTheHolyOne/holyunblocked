@@ -5,8 +5,8 @@ window.apps["info"]["tile"] = `<div class="box_widget">
 	</div>
 	<div>
 		<ul class="list">
-			<li><a href="../apps/info/info.html">Details on HolyUnblocker</a></li>
-			<li><a href="../apps/info/about.html">Technical HolyUnblocker://about</a></li>
+			<li><a href="../../apps/info/info.html">Details on HolyUnblocker</a></li>
+			<li><a href="../../apps/info/about.html">Technical HolyUnblocker://about</a></li>
 			<li class="italic">(Includes information on system and apps)</li>
 		</ul>
 	</div>
