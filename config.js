@@ -5,6 +5,9 @@ window._config = {
 		"info",
 		"conn_stats",
 		"hacker-news-tile",
-		"sample-games"
+		"sample-games",
+		"yt-cl",
+		"mpviewer",
+		
 	]
 }

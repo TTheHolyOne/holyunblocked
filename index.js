@@ -1,4 +1,3 @@
-
 const express = require('express');
 const app = express();
 app.use(express.json());
@@ -13,7 +12,6 @@ const io = require('socket.io')(server, {
 		methods: ['GET', 'POST'],
 	},
 });
-require('http').createServer((_, res) => res.end("w")).listen(8080)
 const filenames = ['.css', '.gif', '.png', '.jpg', '.txt', '.js', '.md', '.html', '.env', '.svg'];
 const ppl = {};
 //const users = [
@@ -171,6 +169,10 @@ app.post("/auth/register",(req,res)=>{
 app.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
 	for (let i in filenames) {
+		if(req.path.match(".js")&&req.path.indexOf("compiled.js")==-1){
+			res.send("<pre>NOOOOOOOOOOOO</pre>");
+			return "";
+		}
 		if (req.path.match(filenames[i])) {
 			res.sendFile(path.join(__dirname + req.path));
 			break;
