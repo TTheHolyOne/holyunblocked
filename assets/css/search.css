@@ -10,6 +10,7 @@ p {
 }
 iframe + p {
   padding: 10px;
+
 }
 
 p + sub {
@@ -51,10 +52,11 @@ hr {
 	background-color: #b03232;
 	color: #b03232;
 }
-iframe {
-  width: 60%;
+iframe {  
   margin: 0 auto;
   display: block;
+		background-color:#892929;
+	background-image: url("../../pages/games/games/images/loading.gif");
 }
 
 h1 {
@@ -89,6 +91,68 @@ nav {
   width: auto;
 }
 
+button {
+	color:#b03232;
+	background-color:#161515;
+}
+
+#gameList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+margin-right: auto;
+width: 12em
+}
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+margin-left: auto;
+margin-right: auto;
+width: 8em
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 /* IDS */
 
 /* search */
@@ -104,6 +168,7 @@ nav {
 }
 
 /* CLASSES */
+/* navbar */
 /* navbar */
 .nav-container {
   background-color: #0f0f0f;
