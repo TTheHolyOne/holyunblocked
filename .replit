@@ -1,2 +1,3 @@
+riptidelanguage = "nodejs"
 language = "html"
 run = "node index.js"
