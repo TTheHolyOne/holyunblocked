@@ -9,6 +9,9 @@ This is a website that unblocks multiple games, plugins, etc.. This website can 
 - [@TTheHolyOne](https://www.github.com/ttheholyone)
 - [@ICBEAR6000](https://www.replit.com/@ICBEAR6000)
 
+## Credits
+- [@Music<3](https://www.youtube.com/watch?v=a3Z7zEc7AXQ)
+
 
 ## Features
 
