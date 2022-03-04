@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <style>
+            body {
+                background-color:black;
+                color:white;
+                        }
+             .searchbar {  
+                            
+             float: left;  
+             }  
+             input[type=text] {  
+             padding: 6px;  
+             margin-top: 8px;  
+             font-size: 17px;  
+             border: none;  
+             }  
+    </style>
+    <link href="../images/game.png" rel="icon" type="image/png">
+    <link href="../../../../assets/css/search.css" rel="stylesheet" type=
+    "text/css">
+
+    <title>Google Classroom</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <a href="../about.html" style=
+        "font-size:75px;">#STOPINTERNETCENSORSHIP</a>
+
+        <nav>
+            <a class="nav-item" href="../index.html">HOME</a> <a class="nav-item"
+            href="../about.html">ABOUT/CHANGELOG</a>
+        </nav>
+    </div>
+
+    <hr>
+
+    <h1>BROWSER #3</h1>
+    <sub>(will say dangerous but is very safe dw)
+    screen</sub> <button class="gradient-border" id="box">FULLSCREEN</button>
+
+    <p><p class="gradient-border" height="675" style=" background-color: #0f0f0f;"
+    width="815"><iframe allowfullscreen="yes" allowtransparency="true" height=
+    "675" scrolling="no" src="https://Riptide-1.christopherbu17.repl.co" width="815"></iframe>
+    </p></p>
+    <br>
+    <!--fullscreen code from ub76--> 
+    <script>
+        var urlObj = new window.URL(window.location.href);
+        var url = "https://Riptide-1.christopherbu17.repl.co";
+
+        if (url) {
+            var win;
+
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+					win.document.title = "BigIdeasMath - Lesson A";
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                    
+
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+
+                        }
+                    }, 500);
+
+
+                }
+            };
+        }
+    </script>
+
+
+</body>
+</html>
