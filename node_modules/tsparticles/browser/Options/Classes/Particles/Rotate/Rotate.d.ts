@@ -1,0 +1,17 @@
+import { RotateDirection, RotateDirectionAlt } from "../../../../Enums";
+import type { IOptionLoader } from "../../../Interfaces/IOptionLoader";
+import type { IRotate } from "../../../Interfaces/Particles/Rotate/IRotate";
+import type { RecursivePartial } from "../../../../Types";
+import { RotateAnimation } from "./RotateAnimation";
+import { ValueWithRandom } from "../../ValueWithRandom";
+/**
+ * [[include:Options/Particles/Rotate.md]]
+ * @category Options
+ */
+export declare class Rotate extends ValueWithRandom implements IRotate, IOptionLoader<IRotate> {
+    animation: RotateAnimation;
+    direction: RotateDirection | keyof typeof RotateDirection | RotateDirectionAlt;
+    path: boolean;
+    constructor();
+    load(data?: RecursivePartial<IRotate>): void;
+}

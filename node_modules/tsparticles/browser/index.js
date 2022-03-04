@@ -1,0 +1,17 @@
+import { Engine } from "./engine";
+import { initPjs } from "./pjs";
+import { loadFull } from "./full";
+const tsParticles = new Engine();
+tsParticles.init();
+const { particlesJS, pJSDom } = initPjs(tsParticles);
+loadFull(tsParticles);
+export * from "./Core";
+export * from "./Core/Container";
+export * from "./Enums";
+export * from "./Plugins/Absorbers/Enums";
+export * from "./Plugins/Emitters/Enums";
+export * from "./Plugins/PolygonMask/Enums";
+export { Engine, Engine as Main };
+export * from "./Utils";
+export * from "./Types";
+export { particlesJS, pJSDom, tsParticles };

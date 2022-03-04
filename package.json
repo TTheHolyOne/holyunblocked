@@ -4,6 +4,7 @@
     "express": "^4.17.3",
     "socket.io": "^4.4.1",
     "start": "^5.1.0",
+    "tsparticles": "^1.41.6",
     "uuid": "^8.3.2"
   }
 }

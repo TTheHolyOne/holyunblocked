@@ -1,0 +1,13 @@
+import type { RecursivePartial, SingleOrMultiple } from "../../../../Types";
+import type { IBubbleBase } from "../../../Interfaces/Interactivity/Modes/IBubbleBase";
+import { OptionsColor } from "../../OptionsColor";
+export declare abstract class BubbleBase implements IBubbleBase {
+    distance: number;
+    duration: number;
+    mix: boolean;
+    opacity?: number;
+    size?: number;
+    color?: SingleOrMultiple<OptionsColor>;
+    constructor();
+    load(data?: RecursivePartial<IBubbleBase>): void;
+}
