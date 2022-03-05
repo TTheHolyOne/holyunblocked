@@ -239,6 +239,7 @@ io.on('connection', (socket) => {
 		}
 	});
 	socket.on("type", (data) => {
+		
 		if(sessions[data.session]!=undefined){
 			if(users[sessions[data.session]]["u"] == data.name){
 				delete data.session;
@@ -250,3 +251,7 @@ io.on('connection', (socket) => {
 server.listen(8080, () => {
 	console.log('listening on *:8080');
 });
+//app.use(express.static(__dirname + "/public"), (_, res, next) => {
+ // res.status(404)
+ // res.sendFile(__dirname + "/404.html")
+//});
