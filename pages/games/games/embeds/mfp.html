@@ -46,11 +46,8 @@
 
 
     <h1>MY DEAD FRIEND PEDRO</h1>
-    <sub>may need to use fullscreen to be able to see the game's full
-    screen</sub> <button class="gradient-border" id="box">FULLSCREEN</button>
+    <sub>NO FULL SCREEN ON RUFFLE GAMES :(</sub> <button class="gradient-border" id="box">FULLSCREEN</button>
 
-    <p>
-    </p>
 
 
     <p class="gradient-border" height="675" style=" background-color: #0f0f0f;"
@@ -58,7 +55,7 @@
     <script src=
     "https://xxsibxx.github.io/ruffleembedsetup112/ruffle/ruffle.js">
     </script>
-    </p>
+
         <embed allowfullscreen="yes" allowtransparency="true" height="675"
         pluginspage=" http://www.macromedia.com/go/getflashplayer" scrolling=
         "no" src=
@@ -66,8 +63,10 @@
         type="application/x-shockwave-flash" width="815">
     <p></p>
     <p></p><br>
+	    </p>
     <!--fullscreen code from ub76--> 
-    <script>
+    <script src="https://xxsibxx.github.io/ruffleembedsetup112/ruffle/ruffle.js">
+		
         var urlObj = new window.URL(window.location.href);
         var url = "https://holyunblocked.ttheholyone.repl.co/assets/ruffle/MyFriendPedro.swf";
 
@@ -81,14 +80,16 @@
                     win = window.open();
                     win.document.body.style.margin = '0';
                     win.document.body.style.height = '100vh';
-                    var iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.type = "application/x-shockwave-flash";
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = url;
-                    win.document.body.appendChild(iframe);
+                    var embed = win.document.createElement('embed');
+					embed.pluginspage = 'http://www.macromedia.com/go/getflashplayer';
+					
+                    embed.style.border = 'none';
+                    embed.type = "application/x-shockwave-flash";
+                    embed.style.width = '100%';
+                    embed.style.height = '100%';
+                    embed.style.margin = '0';
+                    embed.src = url;
+                    win.document.body.appendChild(embed);
                     
 
                     var interval = setInterval(function() {
