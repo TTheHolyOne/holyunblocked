@@ -12,7 +12,10 @@ iframe + p {
   padding: 10px;
 
 }
+embed + p {
+  padding: 10px;
 
+}
 p + sub {
   font-family: "Roboto Mono", monospace;
   clear: both;
@@ -58,7 +61,12 @@ iframe {
 		background-color:#702963;
 	background-image: url("../../pages/games/games/images/loading.gif");
 }
-
+embed {  
+  margin: 0 auto;
+  display: block;
+		background-color:#702963;
+	background-image: url("../../pages/games/games/images/loading.gif");
+}
 h1 {
   font-size: 50px;
 }
