@@ -90,6 +90,25 @@ a:hover {
 a:active {
   color: #5D3FD3;
 }
+/* hyperlink styling */
+a:link {
+  color: #5D3FD3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:visited {
+  color: #5D3FD3;
+}
+
+a:hover {
+  color: #5D3FD3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #5D3FD3;
+}
 
 /* navbar*/
 nav {
