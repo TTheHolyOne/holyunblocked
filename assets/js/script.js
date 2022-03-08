@@ -1,3 +1,7 @@
+console.log('Hey, I know your looking.');
+console.log('Go ahead and copy the links, i dont care.');
+console.log('Just know i am better than you, hands up in the fire burn, burn, burn,  burn.');
+
 window.addEventListener(
     'keydown',
     function(e) {
