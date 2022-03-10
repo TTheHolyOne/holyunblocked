@@ -2,7 +2,7 @@ SAVE UKRAINE
 
 # HolyUnblocked
 
-This is a website that unblocks multiple games, plugins, etc.. This website can not be seen by GoGuardian if you download and use the site locally. It can be seen if you use my replit domain. Some games uses embeds so if those embedded sites get blocked we will have to find a new site. Ads are because your boy is broke and needs money, only put ads on the game PAGES so you should probably click on them so i can pay for more domains. I know its annoying, I hate ads but I need the money so if you care click the ads then close out once loaded. If seems fit I might add a ADS DISABLE/ENABLE setting in small text somewhere LOL
+This is a website that unblocks multiple games, plugins, etc.. This website can not be seen by GoGuardian if you download and use the site locally. It can be seen if you use my replit domain. Some games uses embeds so if those embedded sites get blocked we will have to find a new site.
 
 ## Authors
 
