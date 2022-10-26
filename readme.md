@@ -1,4 +1,9 @@
-SAVE UKRAINE
+
+Whats up, TTheHolyOne Here. This site is honestly a really cool website I made a while ago, last year. I now work on holymods.dev
+
+I no longer update this site. Feel free to download it and work on it now if you want to. Just credit me please. Other than that yeah, this is my first unblocked website. Personally in my opinion though, holymods.dev is way better I just need to add more proxys and games ;).
+It was a great time working on this site. I am quite sad to see it go. I am moving on now and I will still try to be in the stopinterenetcensorship game but I personally do not enjoy it much anymore and it just isn't a priority for me now.
+
 
 # HolyUnblocked
 
@@ -30,7 +35,7 @@ This is a website that unblocks multiple games, plugins, etc.. This website can 
 
 ## How to use
 If you want to use it without caring if GoGuardian can see it..<br/>
-1. Just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co/) Shows as unsecure and tab cloaker broken<br/>
+1. Just go to my website: [HolyUnblocked](https://holyunblocked.ttheholyone.repl.co/) Shows as insecure and tab cloaker broken<br/>
 2. Or this domain: [HolyUnblocked#2](https://holymods.dev/holyunblocked/index.html) Working<br/>
 3. Or this one: [HolyUnblocked#3](https://holyunblocker.ttheholyone.repl.co) Working<br/>
 4. Read below to learn how to make this run locally so it cant be blocked if all of these are blocked!
